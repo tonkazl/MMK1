@@ -1,0 +1,19 @@
+/* CSS Document */
+@font-face {
+    font-family: "Righteous";
+    src: url('Righteous-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+}
+p {
+    font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+}
+body {
+    background-color: plum;
+    text-align: center;
+}
