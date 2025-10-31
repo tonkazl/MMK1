@@ -17,3 +17,20 @@ body {
     background-color: plum;
     text-align: center;
 }
+ul {
+    list-style-type:initial;
+}
+ol {
+    list-style-type:decimal;
+}
+ul, ol {
+    margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+    font-family: "Righteous", sans-serif;
+    color:antiquewhite;
+    float: none;
+}
+span {
+    color:antiquewhite
+}
