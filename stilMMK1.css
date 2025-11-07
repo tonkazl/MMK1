@@ -5,11 +5,7 @@
     font-weight: 400;
     font-style: normal;
 }
-h1 {
-    font-family: "Righteous", sans-serif;
-    color: darkolivegreen;
-}
-p {
+h1, h2, p {
     font-family: "Righteous", sans-serif;
     color: darkolivegreen;
 }
@@ -33,4 +29,48 @@ ul, ol {
 }
 span {
     color:antiquewhite
+}
+form{font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+}
+input,
+select,
+input[list]{
+    font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+    background-color: hsla(34, 78%, 91%, 0.7);
+    border: 2px solid darkolivegreen;
+    border-radius: 5px;
+    padding: 5px 8px;
+    box-shadow: 1px 2px 3px orchid;
+    font-size: 14px;
+}
+input:hover, input:focus, input:active
+select:hover, select:focus, select:active {
+    box-shadow: 1px 4px 4px orchid;
+    outline: none;
+}
+input[type] {
+    font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+    background:hsla(34, 78%, 91%, 0.7);
+}
+input[type="button"] {
+    font-size: 20px;
+    font-weight: bold; 
+    border-radius: 5px; 
+    box-shadow:1px 3px 4px orchid; 
+    padding: 20px;
+    border:2px solid darkolivegreen;
+    background: hsla(34, 78%, 91%, 0.7);
+}
+input[type="button"]:hover {
+    box-shadow:2px 5px 4px orchid;
+}
+label {
+    font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+    font-weight: bold;
+    display: inline-block;
+    margin: 8px 5px 4px 0;
 }
