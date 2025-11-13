@@ -5,7 +5,7 @@
     font-weight: 400;
     font-style: normal;
 }
-h1, h2, p {
+h1, h2, h3, p, caption {
     font-family: "Righteous", sans-serif;
     color: darkolivegreen;
 }
@@ -73,4 +73,28 @@ label {
     font-weight: bold;
     display: inline-block;
     margin: 8px 5px 4px 0;
+}
+td, th{
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+    font-family: "Righteous", sans-serif;
+    color: darkolivegreen;
+    background:hsla(34, 78%, 91%, 0.7);
+    padding: 20px;
+    width: 100px;
+    height: 25px;
+}
+table{
+    border: 5px solid darkolivegreen;
+    border-radius: 15px;
+    border-collapse: separate;
+    box-shadow:5px 7px 8px orchid;
+    display: inline-block;
+    margin: 15px auto;
+}
+caption {
+    font-weight: bold;
+}
+.obojena-tablica tr:nth-child(odd) {
+  background-color: hsla(34, 60%, 97%, 0.8);
 }
