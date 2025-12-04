@@ -5,7 +5,7 @@
     font-weight: 400;
     font-style: normal;
 }
-body, h1, h2, h3, p, caption, form, input, select, input[list], label, .oblak, td, th {
+body, h1, h2, h3, p, caption, form, input, select, input[list], label, .oblak, td, th, a {
     font-family: "Righteous", sans-serif;
     color: darkolivegreen;
 }
@@ -154,4 +154,54 @@ caption {
 .blokovi {
     width: 94%;     
     margin: 0 auto; 
+}
+.posteri {
+	width:10%;
+	height:10%;
+}
+iframe {
+    width: 560;
+    height: 315;
+    border: none;
+}
+
+
+@media (max-width: 800px) {
+
+    .oblaci-area {
+        width: 90%;
+        height: auto;
+    }
+
+    .oblak {
+        position: static;
+        margin: 10px auto;
+        display: block;
+        max-width: 90%;
+    }
+
+    .blok {
+        width: 100%;
+        float: none;
+        margin: 20px auto;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    td, th {
+        width: auto;
+        padding: 10px;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .cvijet {
+        display: none;
+    }
 }
