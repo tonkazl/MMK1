@@ -104,12 +104,61 @@ __   /   \   __
 </div>
 </div>
 <br>
-<img src="multimedija/WhenHarryMetSally.jpg" class="posteri">
-<img src="multimedija/WorstPersonInTheWorld.jpg" class="posteri">
-<img src="multimedija/LostInTranslation.jpg" class="posteri">
-<img src="multimedija/succession.jpg" class="posteri">
-<img src="multimedija/fleabag.jpg" class="posteri">
-<img src="multimedija/GilmoreGirls.jpg" class="posteri">
+<div class="posteri-kontejner">
+  <div class="blok-posteri-naslov">
+    <h3>Pritiskom na glumce, saznaj više o njima!</h3>
+    <div class="posteri-blok">
+    <img src="multimedija/WhenHarryMetSally.jpg" class="posteri" usemap="#whms">
+      <map name="whms">
+        <area shape="rect"
+        coords="34,87,67,256"
+        alt="Sally"
+        href="https://www.imdb.com/name/nm0000212/">
+        <area shape="rect"
+        coords="106,85,157,260"
+        alt="Harry"
+        href="https://www.imdb.com/name/nm0000345/">
+      </map>
+    <img src="multimedija/WorstPersonInTheWorld.jpg" class="posteri" usemap="#wpitw">
+      <map name="wpitw">
+        <area shape="rect"
+        coords="38,106,159,275"
+        href="https://www.imdb.com/name/nm4561559/">
+      </map>
+    <img src="multimedija/LostInTranslation.jpg" class="posteri" usemap="#lit">
+      <map name="lit">
+        <area shape="rect"
+        coords="48,66,137,243"
+        href="https://www.imdb.com/name/nm0000195/">
+      </map>
+    </div>
+  </div>
+
+  <div class="blok-posteri-naslov">
+    <h3>Pritiskom na naslov saznaj više o seriji!</h3>
+    <div class="posteri-blok">
+    <img src="multimedija/succession.jpg" class="posteri" usemap="#suc">
+      <map name="suc">
+        <area shape="rect"
+        coords="2,189,167,238"
+        href="https://www.imdb.com/title/tt7660850/">
+      </map>
+    <img src="multimedija/fleabag.jpg" class="posteri"usemap="#fle">
+      <map name="fle">
+        <area shape="rect"
+        coords="9,120,159,175"
+        href="https://www.imdb.com/title/tt5687612/">
+      </map>
+    <img src="multimedija/GilmoreGirls.jpg" class="posteri"usemap="#gigi">
+      <map name="gigi">
+        <area shape="rect"
+        coords="22,1,170,50"
+        href="https://www.imdb.com/title/tt0238784/">
+      </map>
+    </div>
+  </div>
+</div>
+
 <br>
 <p>Traileri:
 <br>
@@ -187,6 +236,25 @@ __   /   \   __
 </div>
 <div class="clear"></div>
 </div>
+
+<h3>Jako volim muziku i najdreži izlasci su mi kocerti!</h3>
+<video id="videoSpeed" width="400" controls>
+  <source src="multimedija/koncert.mp4" type="video/mp4">
+</video>
+<form onsubmit="return false;">
+  <label for="speed">Brzina videa:</label>
+  <select id="speed">
+    <option value="0.5">0.5x</option>
+    <option value="1" selected>1x (normalno)</option>
+    <option value="1.5">1.5x</option>
+    <option value="2">2x</option>
+  </select>
+  <button type="button" onclick="
+    document.getElementById('videoSpeed').playbackRate = document.getElementById('speed').value;">
+    Postavi brzinu
+  </button>
+</form>
+<br>
 
 <h2>Ako misliš da si me sada dobro upoznao, pritisni gumb.</h2>
 <form action="">
