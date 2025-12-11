@@ -5,7 +5,7 @@
     font-weight: 400;
     font-style: normal;
 }
-body, h1, h2, h3, p, caption, form, input, select, input[list], label, .oblak, td, th, a {
+body, h1, h2, h3, p, caption, form, input, select, input[list], label, .oblak, td, th, a, button {
     font-family: "Righteous", sans-serif;
     color: darkolivegreen;
 }
@@ -87,6 +87,7 @@ form{font-family: "Righteous", sans-serif;
 }
 input,
 select,
+button,
 input[list]{
     background-color: hsla(34, 78%, 91%, 0.7);
     border: 2px solid darkolivegreen;
@@ -163,6 +164,28 @@ iframe {
     width: 560;
     height: 315;
     border: none;
+}
+.posteri-kontejner {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.posteri-blok {
+  display: flex;
+  gap: 10px;
+}
+
+.posteri {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+.blok-posteri-naslov {
+  text-align: center;
+}
+video, iframe, object {
+    border-radius: 15px;
 }
 
 
