@@ -189,6 +189,66 @@ video, iframe, object {
 }
 
 
+.oblak {
+    transition: 
+        transform 0.4s ease,
+        box-shadow 0.4s ease,
+        background-color 0.4s ease;
+}
+.oblak:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 4px 8px 10px orchid;
+    background-color: hsla(34, 78%, 94%, 0.85);
+}
+.oblak:active {
+    transform: scale(0.97);
+}
+
+input,
+select,
+button,
+input[list] {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        background-color 0.3s ease;
+}
+input:hover,
+select:hover,
+button:hover {
+    transform: scale(1.05);
+}
+input:active,
+button:active {
+    transform: scale(0.95);
+}
+input:focus,
+select:focus,
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(85, 107, 47, 0.4);
+}
+
+.posteri {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.posteri:hover {
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 4px 6px 8px orchid;
+}
+
+a {
+    text-decoration: underline;
+    display: inline-block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+a:hover {
+    color:antiquewhite;
+    transform: scale(1.10);
+}
+
+
+
 @media (max-width: 800px) {
 
     .oblaci-area {
